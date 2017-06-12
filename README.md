@@ -1,6 +1,8 @@
 Conda Buildpack
 ===============
 
+This repo is forked from [here](https://github.com/kennethreitz/conda-buildpack). This fork is maily to add the functionality of installing via channels specified in conda-channels.txt.
+
 This is a [Heroku Buildpack](https://devcenter.heroku.com/articles/buildpacks) for [Conda](http://conda.pydata.org/), the Python distribution for scientific computing by Continuum Analytics.
 
 -----------------------
@@ -33,7 +35,7 @@ Example usage:
 $ ls
 Procfile  conda-requirements.txt  numbercrunch.py
 
-$ heroku create --buildpack https://github.com/kennethreitz/conda-buildpack.git
+$ heroku create --buildpack https://github.com/shariqfarooq123/conda-buildpack.git
 
 $ git push heroku master
 ...
@@ -70,7 +72,7 @@ $ git push heroku master
 You can also add it to upcoming builds of an existing application:
 
 ```console
-$ heroku config:add BUILDPACK_URL=https://github.com/kennethreitz/conda-buildpack.git
+$ heroku config:add BUILDPACK_URL=https://github.com/shariqfarooq123/conda-buildpack.git
 ```
 
 
