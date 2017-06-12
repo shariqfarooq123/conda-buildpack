@@ -1,7 +1,7 @@
 Conda Buildpack
 ===============
 
-This repo is forked from [here](https://github.com/kennethreitz/conda-buildpack). This fork is maily to add the functionality of installing via channels specified in conda-channels.txt.
+This repo is forked from [here](https://github.com/kennethreitz/conda-buildpack). This fork is mainly to add the functionality of installing via channels specified in conda-channels.txt.
 
 This is a [Heroku Buildpack](https://devcenter.heroku.com/articles/buildpacks) for [Conda](http://conda.pydata.org/), the Python distribution for scientific computing by Continuum Analytics.
 
